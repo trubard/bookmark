@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'a!#)70r04_5qgeos-cmc&bxpn)xo*gcan^*u7w&o(*b9vv0l(*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/trubard/bookmark/static'
